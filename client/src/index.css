@@ -1,0 +1,30 @@
+/* client/src/index.css */
+@import "tailwindcss";
+
+/* TAILWIND V4 THEME CONFIGURATION 
+   This replaces the need for tailwind.config.js 
+*/
+@theme {
+  /* Define your Design Colors here */
+  --color-primary: #1e293b;   /* Dark Blue / Slate 900 */
+  --color-accent: #f97316;    /* Orange / Orange 500 */
+  --color-secondary: #64748b; /* Grey / Slate 500 */
+  --color-surface: #ffffff;   /* White */
+  
+  /* Define Fonts */
+  --font-sans: "Inter", "system-ui", "sans-serif";
+}
+
+/* GLOBAL RESETS (To fix visual issues) */
+body {
+  margin: 0;
+  background-color: #f8fafc; /* Light grey background */
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
