@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { FaCloud, FaLaptopCode, FaMobileAlt } from 'react-icons/fa'; // Icons for the cards
 import { Link } from 'react-router-dom';
 
-import ProfilePic from '../assets/PIC DIB.jpg'; // Import your image (adjust path if needed)
+import ProfilePic from '../assets/pimagep.png'; // Import your image (adjust path if needed)
 import SkillCard from '../components/SkillCard';
 
 const skillsData = [

@@ -1,11 +1,13 @@
 // src/pages/Blog.jsx
 import { motion } from 'framer-motion';
 import { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FaSearch } from 'react-icons/fa';
 import BlogCard from '../components/BlogCard';
 import { allTags, blogPosts } from '../data/blogData';
 
 const Blog = () => {
+  const { t } = useTranslation(); // HOOK
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTag, setActiveTag] = useState('All');
 

@@ -1,9 +1,11 @@
 // src/pages/Works.jsx
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import WorkCard from '../components/WorkCard';
 import { worksEntries } from '../data/worksData';
 
 const Works = () => {
+  const { t } = useTranslation(); // HOOK
   return (
     <div className="min-h-screen bg-slate-50 pt-24 pb-20">
       

@@ -1,4 +1,6 @@
 // client/src/data/blogData.js
+import JVM from '../assets/blogs/JVM.png';
+import webassemblyImage from '../assets/blogs/webassembly.png';
 
 export const blogPosts = [
   {
@@ -34,7 +36,7 @@ export const blogPosts = [
     summary: "Exploring the theoretical limits and potential industrial applications of WebAssembly for system programming.",
     tag: "Rust",
     readTime: "10 min read",
-    imageUrl: "./assets/blogs/webassembly.png",
+    imageUrl: webassemblyImage,
     
     externalLink: "https://www.linkedin.com/pulse/webassembly-future"
   },
@@ -44,7 +46,7 @@ export const blogPosts = [
     summary: "An analysis of different GC algorithms (G1, ZGC) and how they impact application performance in Java.",
     tag: "Java",
     readTime: "7 min read",
-    imageUrl: "https://placehold.co/600x300/1e293b/ffffff?text=JVM+GC",
+    imageUrl: JVM,
     externalLink: "https://medium.com/my-blog/jvm-garbage-collection"
   },
 ];
