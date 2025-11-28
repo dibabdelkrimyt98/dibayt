@@ -8,19 +8,19 @@ import SkillCard from '../components/SkillCard';
 const skillsData = [
   { 
     title: "Rust & Low-Level Performance", 
-    description: "Focusing on memory safety and high-performance computing in systems development.", 
+    description: "Building reliable and memory-safe systems using Rust, with a focus on concurrency, zero-cost abstractions, and high-performance optimization for backend and network-oriented workloads.", 
     icon: FaLaptopCode,
     delay: 0.3
   },
   { 
     title: "Wireless & Networks", 
-    description: "Investigating mobile technologies (5G/6G) and future wireless protocols.", 
+    description: "Exploring next-generation wireless systems through protocol analysis, mobility management, radio performance evaluation, and future-network architectures shaping 5G/6G evolution.", 
     icon: FaMobileAlt,
     delay: 0.5
   },
   { 
     title: "Full-Stack & Backend", 
-    description: "Building reliable services and dynamic applications using Java/Python.", 
+    description: "Developing scalable backend services and modern web applications using Java, Python, and API-driven architectures, with a strong emphasis on performance, reliability, and clean system design.", 
     icon: FaCloud,
     delay: 0.7
   },
@@ -53,7 +53,7 @@ const Welcome = () => {
           </h1>
           
           <p className="text-gray-400 text-lg max-w-lg leading-relaxed">
-            Specialized in low-level performance (Rust/C++) and scalables (Java/Python). 
+            Specialized in low-level performance (Rust) and scalables (Java/Python). 
             Passionate about mobile network infrastructure and wireless protocols.
           </p>
           
@@ -94,27 +94,34 @@ const Welcome = () => {
 
       {/* -------------------- SKILLS / BRIDGING THEORY SECTION -------------------- */}
       <section className="bg-slate-50 py-20 text-slate-900 -mt-20 relative z-10">
-         <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-extrabold mb-4 text-primary">
-                Bridging Theory and Implementation
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-              Merging academic rigor in **wireless networks** with practical, performance-driven software engineering.
-            </p>
+  <div className="container mx-auto px-6 text-center">
 
-            <div className="grid md:grid-cols-3 gap-8">
-              {skillsData.map((skill, index) => (
-                <SkillCard 
-                  key={index}
-                  title={skill.title}
-                  description={skill.description}
-                  icon={skill.icon}
-                  delay={skill.delay}
-                />
-              ))}
-            </div>
-         </div>
-      </section>
+    <h2 className="text-3xl font-extrabold mb-4 text-primary">
+      Engineering Reliable & High-Performance Wireless Systems
+    </h2>
+
+    <p className="text-gray-600 max-w-2xl mx-auto mb-12">
+      I combine deep academic expertise in <strong>wireless networking</strong> with 
+      hands-on experience in <strong>system design</strong>, <strong>performance optimization</strong>, 
+      and <strong>modern software engineering</strong> to build scalable, efficient, and 
+      real-world ready solutions.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      {skillsData.map((skill, index) => (
+        <SkillCard
+          key={index}
+          title={skill.title}
+          description={skill.description}
+          icon={skill.icon}
+          delay={skill.delay}
+        />
+      ))}
+    </div>
+
+  </div>
+</section>
+
     </div>
   );
 };

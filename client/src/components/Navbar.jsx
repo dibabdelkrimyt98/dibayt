@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* --- LOGO --- */}
         <Link to="./" className="text-2xl font-bold tracking-tight flex items-center gap-2 group">
            <span className="w-3 h-3 bg-accent rounded-full inline-block group-hover:scale-125 transition-transform"></span>
-            DIB Abdelkrim Yassine Taki-Eddine
+            Dib-Dev
         </Link>
 
         {/* --- DESKTOP MENU --- */}
