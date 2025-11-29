@@ -3,45 +3,64 @@
 export const worksEntries = [
   {
     id: 1,
-    title: "DHCP Protocol — Client & Server Implementation (Rust)",
+    title: "Dental Clinic Website",
     summary:
-      "Designed and implemented a complete DHCP protocol (client and server) using Rust. Built a concurrent, asynchronous architecture with Tokio and ensured reliable communication over UDP. Included full packet crafting, parsing, and debugging using Wireshark.",
-    techStack: ["Rust", "Tokio", "UDP", "SQLite", "Wireshark"],
-    category: "System Software",
-    githubLink:
-      "https://github.com/dibabdelkrimyt98", // replace if exact repo exists
+      "Developed a modern and responsive website for a dental clinic, featuring appointment scheduling, service presentation, and dynamic content management. Backend built with Node.js and Express for fast, secure API routing.",
+    techStack: ["React", "Node.js", "Express", "Tailwind", "REST API"],
+    category: "Full Stack",
+    githubLink: "https://github.com/dibabdelkrimyt98", // replace if needed
     demoLink: null,
   },
 
   {
     id: 2,
-    title: "Mini Search Engine using TF-IDF Ranking",
+    title: "Landing Page — Consulting RH",
     summary:
-      "Developed a lightweight information retrieval engine capable of indexing text, PDF, and Word documents stored in a database. Implemented TF-IDF scoring to rank results and enable fast keyword-based document retrieval.",
-    techStack: ["Python", "TF-IDF", "SQLite", "Flask (optional)", "NLP"],
-    category: "AI & Information Retrieval",
-    githubLink:
-      "https://github.com/dibabdelkrimyt98", // replace if exact repo exists
+      "Built a professional landing page for a Human Resources consulting company. Designed for high conversion, with animations, responsive UI, and a fast Express.js backend for handling forms and email integration.",
+    techStack: ["React", "Node.js", "Express", "Tailwind", "Framer Motion"],
+    category: "Full Stack",
+    githubLink: "https://github.com/dibabdelkrimyt98", // replace if needed
     demoLink: null,
   },
 
   {
     id: 3,
-    title: "Pharmacy Management System (Java)",
+    title: "DHCP Protocol — Client & Server Implementation (Rust)",
     summary:
-      "Designed and implemented a CLI-based pharmacy management application. Supported stock tracking, prescription validation, and purchase processing. Developed following software engineering principles.",
-    techStack: ["Java", "OOP", "CLI", "Software Engineering"],
-    category: "Software Engineering",
-    githubLink:
-      "https://github.com/dibabdelkrimyt98", // replace if exact repo exists
+      "Designed and implemented a full DHCP protocol (client and server) using Rust with asynchronous networking. Packet crafting, parsing, and debugging were performed using Wireshark and a structured client-server architecture.",
+    techStack: ["Rust", "Tokio", "UDP", "SQLite", "Wireshark"],
+    category: "System Software",
+    githubLink: "https://github.com/dibabdelkrimyt98",
     demoLink: null,
   },
 
   {
     id: 4,
-    title: "Hotel Network Architecture — VLAN, DHCP, RIP, SSH",
+    title: "Mini Search Engine using TF-IDF Ranking",
     summary:
-      "Designed the full network infrastructure of a multi-floor hotel, integrating multiple subnets, VLAN segmentation, DHCP configuration, RIP routing, and SSH secure access. Simulated and validated using Cisco Packet Tracer.",
+      "Developed a lightweight TF-IDF search engine capable of indexing TXT, PDF, and Word documents and ranking them by relevance. Designed as part of the Information Retrieval module.",
+    techStack: ["Python", "TF-IDF", "SQLite", "NLP"],
+    category: "AI & Information Retrieval",
+    githubLink: "https://github.com/dibabdelkrimyt98",
+    demoLink: null,
+  },
+
+  {
+    id: 5,
+    title: "Pharmacy Management System (Java)",
+    summary:
+      "CLI-based pharmacy management system implementing stock tracking, prescription validation, and purchase processing. Designed following software engineering principles.",
+    techStack: ["Java", "OOP", "CLI", "Software Engineering"],
+    category: "Software Engineering",
+    githubLink: "https://github.com/dibabdelkrimyt98",
+    demoLink: null,
+  },
+
+  {
+    id: 6,
+    title: "Hotel Network Architecture",
+    summary:
+      "Designed the complete network architecture of a multi-floor hotel. Configured VLAN segmentation, DHCP servers, RIP routing, and SSH secure access using Cisco Packet Tracer.",
     techStack: ["Cisco Packet Tracer", "VLAN", "DHCP", "RIP", "SSH"],
     category: "Networking",
     githubLink: null,
@@ -49,38 +68,35 @@ export const worksEntries = [
   },
 
   {
-    id: 5,
-    title: "Object Detection & Topic Classification",
+    id: 7,
+    title: "Object Detection & Text Classification",
     summary:
-      "Created a Python program capable of detecting predefined physical objects and classifying text content into main themes using NLP techniques. Utilized spaCy, NumPy, and Pandas for processing and analysis.",
+      "Implemented a Python-based object detection and topic classification pipeline using a predefined dictionary. Used spaCy, NumPy, and Pandas for NLP and data processing.",
     techStack: ["Python", "spaCy", "NumPy", "Pandas", "NLP"],
     category: "Machine Learning",
-    githubLink:
-      "https://github.com/dibabdelkrimyt98", // replace if exact repo exists
+    githubLink: "https://github.com/dibabdelkrimyt98",
     demoLink: null,
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Automatic Registration Web System (Front-End)",
     summary:
-      "Front-end development of a responsive registration and member-tracking platform for Sonatrach’s Digital Innovation Center. Focused on UI/UX, animations, and front-end logic.",
+      "Front-end development of a member registration and tracking system for Sonatrach’s Digital Innovation Center. Focused on UI/UX, animations, and responsive design.",
     techStack: ["HTML", "CSS", "JavaScript", "UI/UX"],
     category: "Frontend",
-    githubLink:
-      "https://github.com/dibabdelkrimyt98", // replace if exact repo exists
+    githubLink: "https://github.com/dibabdelkrimyt98",
     demoLink: null,
   },
 
   {
-    id: 7,
+    id: 9,
     title: "Secure Authentication Module — Backend Internship",
     summary:
-      "Developed a secure authentication module during a backend engineering internship. Built using modern backend principles with an emphasis on user validation, security, and maintainability.",
+      "Implemented a secure authentication module during a backend internship at Kleer Infini, with emphasis on security, user management, and clean API structure.",
     techStack: ["Backend", "Security", "API", "Databases"],
     category: "Backend",
     githubLink: null,
     demoLink: null,
   },
-
 ];
