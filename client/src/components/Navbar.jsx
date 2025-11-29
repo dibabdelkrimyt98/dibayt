@@ -43,7 +43,7 @@ const Navbar = () => {
         {/* --- LOGO --- */}
         <Link to="./" className="text-2xl font-bold tracking-tight flex items-center gap-2 group">
            <span className="w-3 h-3 bg-accent rounded-full inline-block group-hover:scale-125 transition-transform"></span>
-            Dib-Dev
+           Dib-Dev
         </Link>
 
         {/* --- DESKTOP MENU --- */}
@@ -90,14 +90,16 @@ const Navbar = () => {
 
       {/* --- MOBILE MENU DROPDOWN --- */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-primary border-t border-gray-700 absolute w-full left-0 top-full shadow-xl">
+        // FIX: Added 'text-white' here so items default to white instead of dark blue
+        <div className="md:hidden bg-primary border-t border-gray-700 absolute w-full left-0 top-full shadow-xl text-white">
           <div className="flex flex-col p-6 space-y-4">
             {navLinks.map((link) => (
               <Link 
                 key={link.name} 
                 to={link.path}
+                // FIX: Changed 'text-gray-300' to 'text-white' to guarantee visibility
                 className={`text-lg font-medium ${
-                  location.pathname === link.path ? 'text-accent' : 'text-gray-300'
+                  location.pathname === link.path ? 'text-accent' : 'text-white'
                 }`}
               >
                 {link.name}

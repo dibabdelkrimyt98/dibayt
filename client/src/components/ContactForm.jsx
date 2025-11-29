@@ -1,7 +1,7 @@
 // src/components/ContactForm.jsx
 import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
-import { useRef, useState } from 'react'; // Added explicit React import
+import { useRef, useState } from 'react';
 
 const ContactForm = () => {
   const form = useRef();
@@ -11,12 +11,12 @@ const ContactForm = () => {
     e.preventDefault();
     setStatus('sending');
 
-    // 👇️ ACTION REQUIRED: REPLACE ALL THREE PLACEHOLDERS WITH YOUR EMAILJS CREDENTIALS 👇️
+    // 👇️ CREDENTIALS IMPLEMENTED HERE 👇️
     emailjs.sendForm(
-      'YOUR_SERVICE_ID',      // 1. e.g., service_abc123
-      'YOUR_TEMPLATE_ID',     // 2. e.g., template_xyz789
+      'service_ztlo5zf',    // Your Service ID
+      'template_rktp6qa',   // Your Template ID
       form.current, 
-      'YOUR_PUBLIC_KEY'       // 3. e.g., user_def456
+      'h9x0PpZ0hmANt51ja'   // Your Public Key
     )
     .then((result) => {
       console.log('Email sent successfully:', result.text);
