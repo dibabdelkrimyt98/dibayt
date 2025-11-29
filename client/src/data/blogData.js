@@ -1,53 +1,56 @@
 // client/src/data/blogData.js
-import JVM from '../assets/blogs/JVM.png';
-import webassemblyImage from '../assets/blogs/webassembly.png';
+import aiquest from '../assets/blogs/aiquest.jpg';
+import java25 from '../assets/blogs/java25.jpg';
+import mozila from '../assets/blogs/mozila.jpg';
+import RN from '../assets/blogs/RN.jpg';
+import rust from '../assets/blogs/rust.jpg';
 
 export const blogPosts = [
   {
     id: 1,
-    title: "Understanding Rust's Ownership Model",
+    title: "À la découverte de Rust : une vraie révélation technologique ! ",
     summary: "A deep dive into how the borrow checker enforces memory safety and concurrency without a garbage collector.",
     tag: "Rust",
     readTime: "6 min read",
-    imageUrl: "https://placehold.co/600x300/1e293b/ffffff?text=Rust+Ownership",
-    externalLink: "https://www.linkedin.com/pulse/rust-ownership-model"
+    imageUrl: rust,
+    externalLink: "https://www.linkedin.com/posts/dibabdelkrimyt98_programming-innovation-tech-activity-7321994220624306176-zMNz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlTlgsBaAu1tPup-0rqlQh14Jyzcy-fbUw"
   },
   {
     id: 2,
-    title: "Implementing Microservices with Spring Boot and Kafka",
+    title: "Une première aventure dans le monde du quantique et de l’intelligence artificielle",
     summary: "Tutorial on setting up an event-driven architecture using modern Java frameworks.",
-    tag: "Java",
-    readTime: "12 min read",
-    imageUrl: "https://placehold.co/600x300/1e293b/ffffff?text=Java+Kafka",
-    externalLink: "https://medium.com/my-blog/springboot-kafka-guide"
+    tag: "Quantum computing",
+    readTime: "4 min read",
+    imageUrl: aiquest,
+    externalLink: "https://www.linkedin.com/posts/dibabdelkrimyt98_aiquest-quanta-researchabrpaper-activity-7324774304464723968-mMmX?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlTlgsBaAu1tPup-0rqlQh14Jyzcy-fbUw"
   },
   {
     id: 3,
-    title: "Testing Asynchronous Python Applications",
+    title: "Learning React Native: A Journey Powered by Academic Foundations",
     summary: "A guide to effective unit and integration testing for applications built with asyncio and Fast API.",
-    tag: "Python",
-    readTime: "8 min read",
-    imageUrl: "https://placehold.co/600x300/1e293b/ffffff?text=Async+Python",
-    externalLink: "https://medium.com/my-blog/async-python-testing"
+    tag: "React Native",
+    readTime: "2 min read",
+    imageUrl: RN,
+    externalLink: "https://www.linkedin.com/posts/dibabdelkrimyt98_reactnative-mobiledevelopment-computerscience-activity-7352281772392415232-_MEj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlTlgsBaAu1tPup-0rqlQh14Jyzcy-fbUw"
   },
   {
     id: 4,
-    title: "The Future of Low-Level WebAssembly",
+    title: "Java n'est plus le même : comment Java 25 devient un socle de choix pour l'IA ",
     summary: "Exploring the theoretical limits and potential industrial applications of WebAssembly for system programming.",
-    tag: "Rust",
-    readTime: "10 min read",
-    imageUrl: webassemblyImage,
+    tag: "Java",
+    readTime: "5 min read",
+    imageUrl: java25,
     
-    externalLink: "https://www.linkedin.com/pulse/webassembly-future"
+    externalLink: "https://www.linkedin.com/posts/dibabdelkrimyt98_java-java-ia-activity-7394291756579860480-wQcP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlTlgsBaAu1tPup-0rqlQh14Jyzcy-fbUw"
   },
   {
     id: 5,
-    title: "A Deep Dive into JVM Garbage Collection",
+    title: "Firefox renforce encore la protection de vos données !",
     summary: "An analysis of different GC algorithms (G1, ZGC) and how they impact application performance in Java.",
-    tag: "Java",
-    readTime: "7 min read",
-    imageUrl: JVM,
-    externalLink: "https://medium.com/my-blog/jvm-garbage-collection"
+    tag: "Cyber Security",
+    readTime: "3 min read",
+    imageUrl: mozila,
+    externalLink: "https://www.linkedin.com/posts/dibabdelkrimyt98_firefox-protection-donnaezes-activity-7395725843051855872-HCsK?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlTlgsBaAu1tPup-0rqlQh14Jyzcy-fbUw"
   },
 ];
 

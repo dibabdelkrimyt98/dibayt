@@ -10,7 +10,7 @@ const Footer = () => {
           
           <div className="mb-6 md:mb-0 text-center md:text-left">
             <h3 className="text-2xl font-bold text-white mb-2">
-              Your Portfolio <span className="text-accent">•</span>
+              Dib-Dev <span className="text-accent">•</span>
             </h3>
             <p className="text-sm">
               Computer Science Graduate focused on building better connected systems.
@@ -25,6 +25,7 @@ const Footer = () => {
             <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
               <FaGithub size={24} />
             </a>
+            
             <a href={socialLinks.x} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
               <FaTwitter size={24} /> 
             </a>
@@ -38,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-xs text-gray-500 pt-4 border-t border-gray-700">
-          © {new Date().getFullYear()} Your Name. Built with React & Tailwind.
+          © {new Date().getFullYear()} Dib Abdelkrim Y T. Built with React & Tailwind.
         </div>
       </div>
     </footer>

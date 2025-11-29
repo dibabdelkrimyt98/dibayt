@@ -1,9 +1,9 @@
 // client/src/data/socials.js
 
 export const socialLinks = {
-  email: "mailto:your.actual.email@gmail.com", // Keep 'mailto:' prefix
-  linkedin: "https://www.linkedin.com/in/your-profile",
-  github: "https://github.com/your-username",
-  x: "https://x.com/your-handle", // Formerly Twitter
-  facebook: "https://www.facebook.com/your-profile"
+  email: "mailto:your.actual.dibabdelkrimyt98@gmail.com", // Keep 'mailto:' prefix
+  linkedin: "https://www.linkedin.com/in/dibabdelkrimyt98/",
+  github: "https://github.com/dibabdelkrimyt98/",
+  x: "https://x.com/dibabdelkrimyt", // Formerly Twitter
+  facebook: "https://www.facebook.com/dibabdelkarim.yassinetakieddine.3"
 };
